@@ -16,3 +16,58 @@ Please feel free to let me know if you have any questions; otherwise, I'll see y
 Best,
 
 Austin
+
+
+
+Introduction to Computer Science - BU Summer Challenge - Email 0
+A
+Austin Alexander
+Greetings Intro to CS Students! My name is Austin Alexander (please feel free to call me "Austin"), and I will be your instructor for the afternoon...
+
+W
+wzhou@williston.com
+Hi Austin, This is Shirley(Wangchen Zhou)! I am having a problem right now... I got here directly from my school, and I don't have a laptop with me...
+
+A
+Austin Alexander
+Hi Shirley! We will meet in a computer lab, so you won't need to bring your own computer. :) See you soon. Best, Austin
+
+M
+Mathis Bouverot-Dupuis
+to me
+0 minutes agoDetails
+page = """jgqfk<a hrefsdfklh"google.com"sgf"""
+
+def print_all_links(page):
+    if page.find("<a href") == -1:
+        return "No links in " + page
+    else:
+        print "Links in " + page + " are:"
+        b_link = 0
+        while b_link != -1:
+            b_link = page.find("<a href", b_link + 1)
+            start_q = page.find('"', b_link)
+            end_q = page.find('"', start_q + 1)
+            print page[start_q + 1:end_q – 1]
+            
+print_all_links(page)
+
+ 
+
+ 
+
+ 
+
+ 
+
+> Message du 20/06/16 15:31
+> De : "Austin Alexander" <austinjalexander@nicewrk.com>
+> A : "Austin Alexander" <austinjalexander@nicewrk.com>
+> Copie à : 
+> Objet : Introduction to Computer Science - BU Summer Challenge - Email 0
+Reply
+Forward
+Your Google for Work invoice is available
+GJun 2
+Google Payments
+for Work Your invoice is available Hello, Your Google for Work monthly invoice is available. The
