@@ -16,3 +16,39 @@ Please feel free to let me know if you have any questions; otherwise, I'll see y
 Best,
 
 Austin
+s=input().lower().replace(" ","")
+alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+l=[]
+for i in range(len(s)):
+    if s[i] in alphabet:
+        if s[i] not in l:
+            l.append(s[i])
+            if len(l)==26:
+                print("pangram")
+            #else:
+            #print("not pangram")
+
+
+def diff_find(N,K,my_set):
+    my_set = sorted(my_set)
+    i = 0
+    j = 1
+    res = 0
+    while i < N - 1:
+        while j < N - 2:
+            m = int(my_set[i]) - int(my_set[j])
+            if m == K or -m == K:
+                res += 1
+                j += 1
+            if m > K or -m > K:
+                i += 1
+                j = i + 1
+            else:
+                j += 1
+        i += 1
+    return res
+
+values = input()
+inp_list = input()
+test = diff_find(int(values.split()[0]),int(values.split()[1]),inp_list.split())
+print(test)
