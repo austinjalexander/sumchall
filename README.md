@@ -16,3 +16,5 @@ Please feel free to let me know if you have any questions; otherwise, I'll see y
 Best,
 
 Austin
+
+students = ['Abbie', 'Alex', 'Ashley', 'Beckett', 'Conner', 'David', 'Marc', 'Jacob', 'Jeffrey', 'Max', 'Melissa', 'Nicholas', 'Nicole', 'Quinten', 'Rana', 'Sirui', 'Talia', 'Tianlin', 'Bobby', 'Bill']
